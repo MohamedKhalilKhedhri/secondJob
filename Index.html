@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Container for the image gallery -->
+   <div class="blog">
+
+    <h1>BLIG BLOG</h1>
+    <div id="fullscreen-container">
+      <div class="container">
+          <!-- Full-width images with number text -->
+        <div class="SlidesContainer">
+              <!-- Add a button to toggle the full-screen mode -->
+              <button id="fullscreen-btn" type="button" name="fullScreen" title="full screen">
+                <span id="compress-icon" class="icon" style="display: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="compressIcon">
+                        <path d="M160 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-96zM32 320c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-96 0zM352 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-64zM320 320c-17.7 0-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0z"/>
+                    </svg>
+                </span>
+                <span id="expand-icon" class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="expandIcon">
+                        <path d="M32 32C14.3 32 0 46.3 0 64l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 32zM64 352c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-64zM320 32c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-96 0zM448 352c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-96z"/>
+                    </svg>
+                </span>
+            </button>
+            
+          <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
+                <img alt="img" src="assets/naruto.png" >
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
+                <img alt="img" src="assets/dragonball.png" >
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
+                <img alt="img" src="assets/kimetsu.png" >
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+                <img alt="img" src="assets/onepiece.png" >
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">5 / 6</div>
+                <img alt="img" src="assets/tokyo.png" >
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">6 / 6</div>
+                <img alt="img" src="assets/shadow.png" >
+            </div>
+        </div>
+        
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+      
+        
+          <!-- Thumbnail images -->
+          <div class="row">
+            <div class="column">
+              <img alt="img" class="demo cursor" src="assets/naruto.png"  onclick="currentSlide(1)" alt="The Woods">
+            </div>
+            <div class="column">
+              <img alt="img" class="demo cursor" src="assets/dragonball.png"  onclick="currentSlide(2)" alt="Cinque Terre">
+            </div>
+            <div class="column">
+              <img alt="img" class="demo cursor" src="assets/kimetsu.png"  onclick="currentSlide(3)" alt="Mountains and fjords">
+            </div>
+            <div class="column">
+              <img alt="img" class="demo cursor" src="assets/onepiece.png"  onclick="currentSlide(4)" alt="Northern Lights">
+            </div>
+            <div class="column">
+              <img alt="img" class="demo cursor" src="assets/tokyo.png"  onclick="currentSlide(5)" alt="Nature and sunrise">
+            </div>
+            <div class="column">
+              <img alt="img" class="demo cursor" src="assets/shadow.png"  onclick="currentSlide(6)" alt="Snowy Mountains">
+            </div>
+          </div>
+        </div>
+ </div>
+
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium assumenda enim animi tempore delectus perspiciatis ducimus veniam, sed deserunt voluptatum rerum, cum dolor totam repellendus libero vel hic mollitia minus?
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti velit porro nihil veniam maiores, omnis asperiores corrupti a tempore suscipit natus aliquid sit fugiat voluptas quaerat laboriosam ipsum molestias aliquam!
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, laboriosam asperiores? Optio officia, similique ullam incidunt voluptas quisquam sapiente distinctio vitae, minus provident quos ipsum nisi sit maxime beatae unde.
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga distinctio magni! Veritatis similique maxime unde voluptates, quo libero. Possimus a aspernatur alias ab recusandae. Excepturi consequuntur non deleniti libero!
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi excepturi natus, id modi delectus suscipit amet laudantium ducimus laborum ea eligendi, et temporibus maxime nihil dicta aut. Odio, impedit?
+ </p>
+   </div>
+   
+
+
+        
+    <script>
+        // slideShow script
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          
+            }
+
+                        // Get the button and the parent container elements
+                // Get the button and the parent container elements
+        const fullscreenBtn = document.getElementById('fullscreen-btn');
+        const fullscreenContainer = document.getElementById('fullscreen-container');
+
+        // Initial state
+        document.getElementById('expand-icon').style.display = 'block'; // Show expand icon by default
+
+        // Add an event listener to the button
+        fullscreenBtn.addEventListener('click', () => {
+            // Toggle the full-screen mode
+            fullscreenContainer.classList.toggle('fullscreen');
+
+            // Check if we are in fullscreen mode
+            if (fullscreenContainer.classList.contains('fullscreen')) {
+                document.getElementById('compress-icon').style.display = 'block';
+                document.getElementById('expand-icon').style.display = 'none';
+            } else {
+                document.getElementById('compress-icon').style.display = 'none';
+                document.getElementById('expand-icon').style.display = 'block';
+            }
+        });
+
+    </script>
+   
+</body>
+</html>
